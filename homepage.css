@@ -1,37 +1,44 @@
-body{
-     background-image: url('homepage bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  background-attachment: fixed; 
-  
-  background-position: right top;
-}
+ 
 .smartgpt{
     width: 100px;
     height:100px;
     border-radius: 50%;
     position:absolute;
+    top: 40px;
     left:calc(50% - 50px );
 }
+
 #searchForm{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    width: 100%;
+  position: absolute;
+  top: 90vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  max-width: 1400px; 
+  text-align: center;
+
 }
-.search-input{
-  width: 400px;
-  max-width: 80%;
-  padding: 10px 14px;
-  border-radius: 20px;
-  border: 1px solid rgba(0,0,0,0.15);
-  font-size: 16px;
-  outline: none;
+
+.searchInput {
+  width: 450px;
+  max-width: 980px;
+  padding: 14px 60px; 
+  font-size: 20px;  
+  border-radius: 28px;
 }
 
 
+h1{
+  font-size: 30px;
+  font-family: 'sans-serif';
+  font-style:italic;
+  position:absolute;
+  padding: 115px 810px ;
+}
+body{
+  background-image:url("homebg.jpeg");
+  background-size: cover ;
+}
 
 
   

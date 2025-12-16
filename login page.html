@@ -8,7 +8,7 @@
     <div class="loginbox">
         <img src="logo.jpg"  class="smartgpt" alt="smartgpt">
         <h1> Login Here</h1>
-        <form>
+        <form id="log">
             <label for="username">Username</label>
             <input id="username" name="username" type="text" placeholder="Enter username">
             <label for="password">Password</label>
@@ -17,6 +17,13 @@
             <input type="reset" value="Reset">
         </form>
     </div>
+    <script>
+document.getElementById("log").addEventListener("submit", function(e) {
+  e.preventDefault();  
+  window.location.href = "homepage.html";
+});
+</script>
+
 </body>
 
 </html> 

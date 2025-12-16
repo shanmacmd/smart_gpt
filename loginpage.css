@@ -11,7 +11,7 @@ body{
     background-repeat: no-repeat;
 }
 .loginbox{
-    background: #fff;
+    background:transparent;
     color: #050505;
     width: 320px;
     max-width: 90%;
@@ -45,7 +45,7 @@ h1{
     background: solid black;
     color: #030303;
     font-size: 16px;
-    transition: border-color 120ms ease-in-out, background 120ms ease-in-out;
+    
 }
 .loginbox input::placeholder{
     color: rgba(0, 0, 0, 0.6);
@@ -55,7 +55,7 @@ h1{
     border: none;
     outline: none;
     height: 44px;
-    background: #fb2525;
+    background: powderblue;
     color: #070707;
     font-size: 18px;
     border-radius: 22px;
@@ -68,7 +68,7 @@ h1{
 }
 .loginbox input[type="reset"]{
     border: 1px solid rgba(4, 4, 4, 0.12);
-    background: transparent;
+    background: powderblue;
     color: #060606;
     height: 40px;
     font-size: 14px;
@@ -76,7 +76,8 @@ h1{
     cursor: pointer;
 }
 .loginbox input[type="reset"]:hover{
-    background: rgba(238, 236, 236, 0.03);
+    background:powderblue (238, 236, 236, 0.03);
+    color: #ffc107;
 }
 
 .loginbox a{
@@ -84,6 +85,10 @@ h1{
     font-size: 12px;
     line-height: 20px;
     color: rgb(6, 6, 6);
+}
+.loginbox a:hover{
+    color: #ffc107;
+
 }
 .loginbox a:hover{
     color: #ffc107;
